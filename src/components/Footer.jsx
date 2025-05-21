@@ -4,7 +4,7 @@ export default function Footer(){
     return(
         <>
             <footer className="flex justify-center items-center h-85 w-full bg-black text-[#C2C2C2]">
-                <article className=" w-280 grid grid-cols-6 border-amber-300 border">
+                <article className=" w-280 grid grid-cols-6 border-amber-300 //border">
                     <nav>
                         <h2>Encontre Eventos</h2>
                         <ul>

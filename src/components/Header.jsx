@@ -3,7 +3,6 @@ import locIcon from '../assets/Desktop/Icones/locIcon.png'
 import iconSearch from '../assets/Desktop/Icones/iconSearch.png'
 import downArrow from '../assets/Desktop/Icones/downArrow.png'
 
-const buttonHeader = "w-40 text-center cursor-pointer"
 export default function Header() {
     return (
         <>
@@ -18,9 +17,9 @@ export default function Header() {
                         </div>
                     </form>
                     <ul className='flex items-center gap-5 text-white'>
-                        <li className={buttonHeader}>Programação</li>
-                        <li className={buttonHeader}>Categorias</li>
-                        <li className={`${buttonHeader} flex justify-between items-center px-2`}><span className='flex gap-2 items-center'><img src={locIcon} />Seu Local</span> <img src={downArrow}/></li>
+                        <li className='buttonHeader'>Programação</li>
+                        <li className='buttonHeader'>Categorias</li>
+                        <li className='buttonHeader flex justify-between items-center px-2'><span className='flex gap-2 items-center'><img src={locIcon} />Seu Local</span> <img src={downArrow}/></li>
                     </ul>
                 </nav>
             </header>

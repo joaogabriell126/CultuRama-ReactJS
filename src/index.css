@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+
+/*Button Header*/
+.buttonHeader{
+    @apply w-40 text-center cursor-pointer;
+}
+
+/*Class button*/
+.button {
+  @apply h-15;
+}
+.buttonYellow {
+  @apply bg-[#FFC756] ;
+}
+.buttonRed {
+  @apply bg-[#F66139] ;
+}
+.buttonBlue {
+  @apply bg-[#7F8FFE] ;
+}
+.buttonGreen {
+  @apply bg-[#56B78C] ;
+}
+
+
