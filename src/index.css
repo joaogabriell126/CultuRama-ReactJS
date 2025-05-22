@@ -23,4 +23,7 @@
   @apply bg-[#56B78C] ;
 }
 
+.SlideImages{
+  @apply block w-full h-full object-cover;
+}
 
