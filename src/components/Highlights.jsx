@@ -11,8 +11,8 @@ import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 import SlideImage from '../assets/Desktop/Destaque/ImagemTitulo.png'
-import SetaVoltar from '../assets/Desktop/Icones/SetaVoltar.png'
-import SetaAvancar from '../assets/Desktop/Icones/SetaAvancar.png'
+import SetaVoltar from '../assets/Desktop/Icones/setaVoltar.png'
+import SetaAvancar from '../assets/Desktop/Icones/setaAvancar.png'
 
 export default function Highlights() {
     const prevRef = useRef(null);
