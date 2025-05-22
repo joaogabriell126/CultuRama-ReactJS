@@ -6,7 +6,7 @@ export default function EventCard ({ image, title, date, location }){
         <h3 className="font-bold text-lg mb-2">{title}</h3>
         <p className="text-sm mb-1">{date}</p>
         <p className="text-sm text-gray-600 mb-3">{location}</p>
-        <button className="bg-black text-white px-4 py-1 text-sm">Ver</button>
+        <button className="bg-black text-white px-4 py-1 text-sm cursor-pointer">Ver</button>
       </div>
     </div>
   );

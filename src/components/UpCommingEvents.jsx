@@ -69,6 +69,9 @@ export default function UpcomingEvents() {
           <EventCard key={index} {...event} />
         ))}
       </div>
+      <div className="w-full flex justify-end my-5">
+        <button className="bg-black text-white px-15 py-2.5 text-2 cursor-pointer">Ver mais</button>
+      </div>
     </section>
   );
 };
